@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgba(123, 181, 239, 1);
+  background: -moz-linear-gradient(left, rgba(123, 181, 239, 1) 0%, rgba(123, 181, 239, 1) 27%, rgba(87, 156, 236, 1) 78%, rgba(72, 145, 234, 1) 100%);
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(123, 181, 239, 1)),
+    color-stop(27%, rgba(123, 181, 239, 1)),
+    color-stop(78%, rgba(87, 156, 236, 1)),
+    color-stop(100%, rgba(72, 145, 234, 1))
+  );
+  background: -webkit-linear-gradient(left, rgba(123, 181, 239, 1) 0%, rgba(123, 181, 239, 1) 27%, rgba(87, 156, 236, 1) 78%, rgba(72, 145, 234, 1) 100%);
+  background: -o-linear-gradient(left, rgba(123, 181, 239, 1) 0%, rgba(123, 181, 239, 1) 27%, rgba(87, 156, 236, 1) 78%, rgba(72, 145, 234, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(123, 181, 239, 1) 0%, rgba(123, 181, 239, 1) 27%, rgba(87, 156, 236, 1) 78%, rgba(72, 145, 234, 1) 100%);
+  background: linear-gradient(to right, rgba(123, 181, 239, 1) 0%, rgba(123, 181, 239, 1) 27%, rgba(87, 156, 236, 1) 78%, rgba(72, 145, 234, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bb5ef', endColorstr='#4891ea', GradientType=1 );
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+main a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main a:hover {
+  color: blueviolet;
+}
+
+.name-container,
+.article-header,
+.about-content,
+.exp-content,
+.education-content,
+.english-content {
+  text-align: center;
+}
+
+.article-header {
+  text-decoration: underline;
+}
+
+.contacts-content ul,
+.skills-content ul,
+.education-content ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.name-container {
+  margin-top: 50px;
+}
+
+.contact-item {
+  margin-left: 30px;
+}
+
+.skill-item {
+  margin-left: 35px;
+}
+
+.education-item {
+  margin-left: 40px;
+}
+
+.code-content {
+  background: #f5f8fa;
+  background-repeat: no-repeat;
+  border: solid #5c7b90;
+  border-width: 1px 1px 1px 20px;
+  color: #000000;
+  font: 13px 'Courier New', Courier, monospace;
+  line-height: 16px;
+  margin: 10px;
+  min-height: 16px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 12px 10px;
+}
+
+.english-container {
+  margin-bottom: 50px;
+}

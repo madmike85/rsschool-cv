@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mikhail Shcheglakov</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article class="name-container">
+        <h1>Mikhail Shcheglakov</h1>
+      </article>
+      <article class="contacts-container">
+        <h3 class="article-header">My contacts</h3>
+        <div class="contacts-content">
+          <ul>
+            <li class="contact-item">Phone: +7-910-123-45-67-89</li>
+            <li class="contact-item">E-mail: m.shcheglakov@gmail.com</li>
+            <li class="contact-item"><a href="https://github.com/madmike85">GitHub</a></li>
+          </ul>
+        </div>
+      </article>
+      <article class="about-container">
+        <h3 class="article-header">About me</h3>
+        <div class="about-content">
+          <p>I am not so young, but inspired self-taught developer. Who decided to switch from chemical industry to web developmet at hte age of 34.</p>
+        </div>
+      </article>
+      <article class="skils-container">
+        <h3 class="article-header">My skills</h3>
+        <div class="skills-content">
+          <ul>
+            <li class="skill-item">C#</li>
+            <li class="skill-item">Javascript (includes ES6)</li>
+            <li class="skill-item">HTML</li>
+            <li class="skill-item">CSS</li>
+            <li class="skill-item">Git</li>
+            <li class="skill-item">LESS</li>
+            <li class="skill-item">WordPress</li>
+            <li class="skill-item">Angular</li>
+          </ul>
+        </div>
+      </article>
+      <article class="code-container">
+        <h3 class="article-header">Code examples</h3>
+        <ul>
+          <li class="code-item">Javascript</li>
+        </ul>
+        <div class="code-content">
+          <p>clock = document.querySelector('#clock');</p>
+          <p>const hexColor = document.querySelector('#hex-color');</p>
+
+          <p>function hexClock() {</p>
+          <p>&emsp;emspconst time = new Date();</p>
+          <p>&emsp;let hours = time.getHours().toString();</p>
+          <p>&emsp;let minutes = time.getMinutes().toString();</p>
+          <p>&emsp;let seconds = time.getSeconds().toString();</p> 
+          <p>&emsp;if (hours.length < 2)</p> 
+          <p>&emsp;&emsp;hours = '0' + hours;</p> 
+          <p>&emsp;if (minutes.length < 2)</p> 
+          <p>&emsp;&emsp;minutes = '0' + minutes; </p>
+          <p>&emsp;if (seconds.length < 2)</p> 
+          <p>&emsp;&emsp;seconds = '0' + seconds;</p> 
+          <p>&emsp;let clockStr = hours + ':' + minutes + ':' + seconds;</p> 
+          <p>&emsp;let hexColorStr = '#' + hours + minutes + seconds;</p> 
+          <p>&emsp;clock.textContent = clockStr; </p>
+          <p>&emsp;hexColor.textContent = hexColorStr;</p> 
+          <p>&emsp;document.body.style.backgroundColor = hexColorStr;</p> 
+          <p>}</p> 
+          <p>hexClock();</p>
+          </p>setInterval(hexClock, 1000);</p>
+        </div>
+        <ul>
+          <li class="code-item">CSS</li>
+        </ul>
+        <div class="code-content">
+          <p>.nav {</p>
+            <p>&emsp;z-index: 1;</p>
+            <p>&emsp;position: fixed;</p>
+            <p>&emsp;width: 100%;</p>
+            <p>&emsp;height: 60px;</p>
+            <p>&emsp;border-bottom: 1px solid rgba(0, 0, 0, 0.1);</p>
+          <p>}</p>
+          
+          <p>.nav.scrolled {</p>
+            <p>&emsp;background-color: #fff !important;</p>
+            <p>&emsp;transition: background-color 300ms linear;</p>
+          <p>}</p>
+          
+          <p>.menu-open {</p>
+            <p>&emsp;position: absolute;</p>
+            <p>&emsp;line-height: 60px;</p>
+            <p>&emsp;left: 1.4em;</p>
+            <p>&emsp;cursor: pointer;</p>
+          <p>}</p>
+          
+          <p>.brand span a {</p>
+            <p>&emsp;position: absolute;</p>
+            <p>&emsp;line-height: 60px;</p>
+            <p>&emsp;left: 50%;</p>
+            <p>&emsp;transform: translateX(-50%);</p>
+            <p>&emsp;text-transform: uppercase;</p>
+            <p>&emsp;font-size: 14px;</p>
+            <p>&emsp;font-weight: 300;</p>
+            <p>&emsp;letter-spacing: 4px;</p>
+          <p>}</p>
+          
+          <p>.brand a:hover {</p>
+            <p>&emsp;text-decoration: none;</p>
+          <p>}</p>
+          
+          <p>.cart {</p>
+            <p>&emsp;position: absolute;</p>
+            <p>&emsp;line-height: 60px;</p>
+            <p>&emsp;right: 1.4em;</p>
+            <p>&emsp;font-weight: 300;</p>
+            <p>&emsp;cursor: pointer;</p>
+          <p>}</p>
+        </div>
+      </article>
+      <div class="exp-container">
+        <h3 class="article-header">My Experience</h3>
+        <div class="exp-content">
+          <p>I start freelancing half a year ago. Currently I am working on the website for a University in Uganda.</p>
+          <p>You could also take a look at my other project in my <a href="https://github.com/madmike85">GitHub</a> account.</p>
+        </div>
+      </div>
+      <article class="education-container">
+        <h3 class="article-header">Education</h3>
+        <div class="education-content">
+          <p>I am a salf-tought developer. For my education I use following resources:</p>
+          <ul>
+            <li class="education-item">YouTube</li>
+            <li class="education-item">Udemy</li>
+            <li class="education-item">FreecodeCamp</li>
+            <li class="education-item">Udacity</li>
+          </ul>
+        </div>
+      </article>
+      <article class="english-container">
+        <h3 class="article-header">English</h3>
+        <div class="english-content">
+          <p>Fluent. I have a interpreter diploma.</p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
