@@ -46,6 +46,16 @@ main a:hover {
   text-decoration: underline;
 }
 
+.img-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+
 .contacts-content ul,
 .skills-content ul,
 .education-content ul {
